@@ -1,5 +1,7 @@
 package com.example.restservice;
+import org.springframework.stereotype.Service;
 
+@Service
 public class EmployeeManager {
     private static Employees empList = new Employees();
     static{
@@ -30,6 +32,16 @@ public class EmployeeManager {
                 "Moon",
                 "happymoon@gmail.com",
                 "Miss."
+            )
+        );
+
+        empList.getEmployees().add(
+            new Employee(
+                "0004",
+                "Nice",
+                "Winter",
+                "alexwinter@gmail.com",
+                "Ms."
             )
         );
     }
