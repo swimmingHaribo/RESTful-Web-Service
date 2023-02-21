@@ -1,5 +1,5 @@
 # RESTful-Web-Service
 
-- Build a Basic RESTful Web Service
-- Implement the Ability to Upload Data
-- Create Unit Tests
+- Built a Basic RESTful Web Service
+- Implemented the Ability to Upload Data
+- Created Unit Tests
