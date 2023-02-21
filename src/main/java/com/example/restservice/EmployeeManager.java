@@ -1,7 +1,4 @@
 package com.example.restservice;
-//import java.util.*;
-// import java.util.ArrayList;
-// import java.util.List;
 
 public class EmployeeManager {
     private static Employees empList = new Employees();
