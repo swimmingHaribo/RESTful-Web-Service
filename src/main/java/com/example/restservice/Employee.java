@@ -1,10 +1,12 @@
 package com.example.restservice;
 
 public class Employee {
-    
-    public Employee() {
+    private String employee_id;
+    private String first_name;
+    private String last_name;
+    private String email; 
+    private String title;
 
-    }
     
     public Employee(String employee_id, String first_name, String last_name, String email, String title) {
         this.employee_id = employee_id;
@@ -14,20 +16,15 @@ public class Employee {
         this.title = title;
     }
 
-    // private Integer id;
-    private String employee_id;
-    private String first_name;
-    private String last_name;
-    private String email; 
-    private String title;
+    // @Override
+    // public String toString() {
+    //     return "Employee: ID = " + employee_id 
+    //         + ", First Name = " + first_name 
+    //         + ", Last Name = " + last_name 
+    //         + ", email = " + email 
+    //         + ", title = " + title;
+    // }
 
-    
-    // public void setId(Integer id) {
-    //     this.id = id;
-    // }
-    // public Integer getId(){
-    //     return id;
-    // }
     public String getEmployee_id() {
         return employee_id;
     }

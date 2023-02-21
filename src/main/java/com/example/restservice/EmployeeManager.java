@@ -6,7 +6,7 @@ package com.example.restservice;
 public class EmployeeManager {
     private static Employees empList = new Employees();
     static{
-        empList.getEmployeeList().add(
+        empList.getEmployees().add(
             new Employee(
                 "0001",
                 "Alex",
@@ -16,7 +16,7 @@ public class EmployeeManager {
             )
         );
 
-        empList.getEmployeeList().add(
+        empList.getEmployees().add(
             new Employee(
                 "0002",
                 "AQ",
@@ -26,7 +26,7 @@ public class EmployeeManager {
             )
         );
 
-        empList.getEmployeeList().add(
+        empList.getEmployees().add(
             new Employee(
                 "0003",
                 "Happy",
@@ -42,6 +42,6 @@ public class EmployeeManager {
     }
 
     public void addEmployee(Employee employee){
-        empList.getEmployeeList().add(employee);
+        empList.getEmployees().add(employee);
     }
 }

@@ -13,6 +13,7 @@ public class EmployeeController {
     public Employees getEmployees(){
         return eManager.getAllEmployees();
     }
+    
 
     // @GetMapping(path = "/", produces = "application/json")
     // public Employees getEmployees(){
@@ -21,7 +22,7 @@ public class EmployeeController {
 
     // @PostMapping(path = "/", consumes = "application/json", produces = "application/json")
     // public ResponseEntity<Object> addEmployee(@RequestBody Employee employee){
-    //     Integer id = eManager.getAllEmployees().getEmployeeList().size() + 1;
+    //     Integer id = eManager.getAllEmployees().getEmployees().size() + 1;
     //     employee.setId(id);
     //     URI location = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(employee.getId()).toUri();
 
