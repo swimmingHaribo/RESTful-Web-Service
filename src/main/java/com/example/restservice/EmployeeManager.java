@@ -1,15 +1,16 @@
 package com.example.restservice;
-import org.springframework.stereotype.Repository;
-import com.example.restservice.Employees;
+//import java.util.*;
+// import java.util.ArrayList;
+// import java.util.List;
 
 public class EmployeeManager {
     private static Employees empList = new Employees();
     static{
         empList.getEmployeeList().add(
             new Employee(
+                "0001",
                 "Alex",
                 "Winter",
-                "0001",
                 "alexwinter@gmail.com",
                 "Ms."
             )
@@ -17,9 +18,9 @@ public class EmployeeManager {
 
         empList.getEmployeeList().add(
             new Employee(
+                "0002",
                 "AQ",
                 "Shell",
-                "0002",
                 "aqshell@gmail.com",
                 "Dr."
             )
@@ -27,9 +28,9 @@ public class EmployeeManager {
 
         empList.getEmployeeList().add(
             new Employee(
+                "0003",
                 "Happy",
                 "Moon",
-                "0003",
                 "happymoon@gmail.com",
                 "Miss."
             )
