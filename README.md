@@ -5,3 +5,4 @@
 - Created Unit Tests
 - Run the Application with Maven 
 ```./gradlew bootRun```
+- http://localhost:8080/employees
